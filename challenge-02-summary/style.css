@@ -25,12 +25,15 @@ body{
     border-radius: 30px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
     text-align: center;
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 340px;
+    max-width: 340px;
+    position: relative;
+    left: 18px; 
 }
 
 h2{
     margin-top: 15px;
+    font-size: 28px;
     
 }
 
@@ -47,7 +50,7 @@ h2, #circulo{
     font-size: 70px;
     font-weight: 800;
     position: relative;
-    left: 40px;    
+    left: 33px;    
 }
 
 .number{
@@ -55,7 +58,9 @@ h2, #circulo{
     top: 40px;
 }
 
-
+.titulo-sec-um, .titulo-sec-dois{
+    margin-bottom: 28px;
+}
 
 .titulo-sec-um, .cor-lilas, .texto-parag{
     color: hsl(241, 100%, 89%);
@@ -65,6 +70,8 @@ h2, #circulo{
 .titulo-sec-um, .titulo-sec-dois{
     font-size: 20px;
 }
+
+
 
 .texto-parag{
     position: relative;
@@ -79,15 +86,20 @@ h2, #circulo{
     border-radius: 0px 30px 30px 0px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
     min-width: 350px;
-    max-width: 350px;    
+    max-width: 350px;  
+    background-color: white; 
+   
 
 }
+
+
 
 .titulo-sec-dois{
     color:hsl(224, 30%, 27%);
     margin-bottom: 20px;
     
 }
+
 
 .div-um, .div-dois, .div-tres, .div-quatro{
     padding: 12px;
@@ -149,6 +161,11 @@ h2, #circulo{
     
 }
 
+.cor-azul, .cor-cinza{
+    position: relative;
+    left: 70px;
+}
+
 .cor-lilas{
     font-weight: 500;
     position: relative;
@@ -167,4 +184,11 @@ button{
     position: relative;
     left: 1px;
     margin-top: 18px;
+}
+
+button:hover{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+  
 }
