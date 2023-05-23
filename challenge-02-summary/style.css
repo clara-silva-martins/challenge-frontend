@@ -11,7 +11,24 @@ body{
 }
 
 .sec-um{
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     background-color: hsl(241, 81%, 54%);
+}
+
+h2, div{
+    color: white;
+}
+
+#circulo{
+    
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.titulo-sec-um, .cor-lilas{
+    color: hsl(241, 100%, 89%);
 }
 
 .titulo-sec-dois{
@@ -62,4 +79,15 @@ body{
 .cor-cinza{
     color: hsla(224, 30%, 27%, 0.705);
     font-weight:700;
+}
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+    padding: 10px 60px;
+    
 }
